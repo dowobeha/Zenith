@@ -1,17 +1,15 @@
-//
-//  ZenithApp.swift
-//  Zenith
-//
-//  Created by Lane Woodrose Schwartz on 7/19/26.
-//
 
 import SwiftUI
 
 @main
-struct ZenithApp: App {
+struct Zenith: App {
     var body: some Scene {
-        WindowGroup {
+        MenuBarExtra {
+            MenuView()
+        } label: {
             ContentView()
         }
     }
 }
+
+
